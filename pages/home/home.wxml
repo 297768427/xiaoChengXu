@@ -1,2 +1,6 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<text class="theText">{{sth}}</text>
+<button size="mini"> click </button>
+<text wx:for="{{students}}" wx:key="name">\n{{index+1}}. {{item.name}}:{{item.age}}</text>
+<view>{{count}}</view>
+<button size="mini" bindtap="handleClick">加一</button>

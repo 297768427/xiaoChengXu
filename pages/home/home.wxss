@@ -1,1 +1,6 @@
 /* pages/home/home.wxss */
+.theText{
+  font-size: 30px;
+  font-family: cursive;
+  color: coral;
+}
