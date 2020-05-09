@@ -3,5 +3,8 @@
   font-size: 30px;
   font-family: cursive;
   color: coral;
-  
+}
+
+.nick{
+  display: block;
 }

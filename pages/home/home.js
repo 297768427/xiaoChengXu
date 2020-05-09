@@ -12,6 +12,7 @@ Page({
 
   handleClick(){
       this.setData({count:this.data.count +1});
+      
   },
 
   /**

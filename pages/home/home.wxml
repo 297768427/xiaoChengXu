@@ -3,4 +3,5 @@
 <button size="mini"> click </button>
 <text wx:for="{{students}}" wx:key="name">\n{{index+1}}. {{item.name}}:{{item.age}}</text>
 <view>{{count}}</view>
-<button size="mini" bindtap="handleClick">加一</button>
+<button size="mini" bindtap="handleClick">加一 </button>
+<open-data type="userNickName" class="nick"></open-data>
