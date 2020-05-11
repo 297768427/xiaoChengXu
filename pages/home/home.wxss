@@ -8,3 +8,7 @@
 .nick{
   display: block;
 }
+
+.btn{
+  background-color: pink;
+}

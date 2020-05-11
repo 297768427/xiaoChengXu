@@ -1,2 +1,4 @@
 <!--pages/profile/profile.wxml-->
 <text>pages/profile/profile.wxml</text>
+<image src="{{imgUrl}}"/>
+<button bindtap="click">选照片</button>

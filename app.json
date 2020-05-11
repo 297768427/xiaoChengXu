@@ -7,23 +7,24 @@
   "window": {
     "navigationBarBackgroundColor": "#FF00FF",
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "哎呦不错哦",
-    "backgroundColor": "#ADFF2F",
-    "backgroundTextStyle": "light"
+    "navigationBarTitleText": "哎呦不错哦"
   },
   "tabBar": {
     "selectedColor": "#ff5777",
-    "list": [{
-      "pagePath": "pages/home/home",
-      "text": "home",
-      "iconPath": "assets/iconOne.png",
-      "selectedIconPath": "assets/iconOne.png"
-    },
-    {
-      "pagePath": "pages/profile/profile",
-      "text": "profile",
-      "iconPath": "assets/iconTwo.png",
-      "selectedIconPath": "assets/iconTwo.png"
-    }]
-  }
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "home",
+        "iconPath": "assets/iconOne.png",
+        "selectedIconPath": "assets/iconOne.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "profile",
+        "iconPath": "assets/iconTwo.png",
+        "selectedIconPath": "assets/iconTwo.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap67.json"
 }

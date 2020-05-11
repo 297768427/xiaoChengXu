@@ -5,9 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+         imgUrl:""
   },
-
+   
+  click(){
+    wx.chooseImage({
+      complete: (res) => {
+        this.setData({imgUrl:res.tempFilePaths[0]});
+      },
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
