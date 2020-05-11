@@ -5,3 +5,5 @@
 <view>{{count}}</view>
 <button size="mini" bindtap="handleClick" hover-class="btn">加一 </button>
 <open-data type="userNickName" class="nick"></open-data>
+<button bindtap="changeColor">change color</button>
+<view class="{{act ? 'beActive':''}}">颜色改变</view>

@@ -7,7 +7,14 @@ Page({
   data: {
     sth:"哎哟",
     students:[{name:"kobe",age:30},{name:"james",age:29},{name:"curry",age:28}],
-    count:0
+    count:0,
+    act:false
+  },
+
+  changeColor(){
+    this.setData({
+     act:!this.data.act
+    })
   },
 
   handleClick(){
