@@ -7,3 +7,8 @@
 <open-data type="userNickName" class="nick"></open-data>
 <button bindtap="changeColor">change color</button>
 <view class="{{act ? 'beActive':''}}">颜色改变</view>
+<block wx:for="{{students}}" wx:key="age">
+<view>{{index}}</view>
+<button>{{item.name}}</button>
+<text>{{item.age}}</text>
+</block>
