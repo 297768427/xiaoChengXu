@@ -1,2 +1,9 @@
+<theNavi title="{{['nike','adidas','vans','anta']}}"
+         bind:goGet="getBrand"/>
+<myHeader/>
+
 <!--pages/about/about.wxml-->
 <text>pages/about/about.wxml</text>
+
+<view>{{count}}</view>
+<theFooter bind:plus = "handlePlus"/>

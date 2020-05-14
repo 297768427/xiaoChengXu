@@ -1,0 +1,24 @@
+/* components/navi/navi.wxss */
+.container{
+  display: flex;
+  height: 110rpx;
+  width: 100%;
+  background-color: cornflowerblue;
+  align-items: center;
+}
+
+.titleText{
+  display: inline-block;
+  flex: 1;
+  font-size: 60rpx;
+  text-align: center;
+}
+
+.titleTextSelected{
+  display: inline-block;
+  flex: 1;
+  font-size: 60rpx;
+  text-align: center;
+  text-decoration: underline;
+  color: palevioletred;
+}

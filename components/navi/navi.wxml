@@ -1,0 +1,10 @@
+<!--components/navi/navi.wxml-->
+<view class="container">
+<block wx:for="{{title}}" wx:key="index" >
+<text class="{{index==currentIndex ? 'titleTextSelected':'titleText'}}" 
+      bindtap="handleTap"
+      data-index="{{index}}"
+      data-brand="{{item}}"
+      >{{item}}</text>
+</block>
+</view>

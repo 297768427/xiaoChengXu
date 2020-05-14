@@ -1,0 +1,2 @@
+<!--components/footer/footer.wxml-->
+<button size="mini" bindtap="plusOne">+ 1</button>

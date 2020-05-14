@@ -5,8 +5,21 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    count:0,
+    titleOne:"nike",
+    titleTwo:"adidas",
+    titleThree:"vans"
   },
+
+handlePlus(){
+  this.setData({
+    count:this.data.count +1 
+  })
+},
+
+getBrand(event){
+   console.log(event.detail.brand + "页面正在获取。。。。。");
+},
 
   /**
    * 生命周期函数--监听页面加载
